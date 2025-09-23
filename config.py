@@ -21,7 +21,7 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", "--1001977721033"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001977721033"))
 
 OWNER_ID = int(getenv("OWNER_ID", "6329937391"))
 
@@ -38,7 +38,7 @@ API_KEY = getenv("API_KEY", "30DxNexGenBots6c5e31") # youtube song api key,
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/THEMOHMAYA/spotifymusic",
+    "https://github.com/code663/spotifymusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
