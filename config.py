@@ -21,11 +21,11 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002106071049"))
+LOGGER_ID = int(getenv("LOGGER_ID", "--1001977721033"))
 
-OWNER_ID = int(getenv("OWNER_ID", "5311223486"))
+OWNER_ID = int(getenv("OWNER_ID", "6329937391"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "spotify_x_music_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "LOVER_X_MUSIC_BOT")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -45,8 +45,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/otploothub")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/frozenTools")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/angel_world11")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/music_lover2313")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
