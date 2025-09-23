@@ -21,7 +21,7 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002106071049"))
 
 OWNER_ID = int(getenv("OWNER_ID", "5311223486"))
 
@@ -32,6 +32,9 @@ COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+API_KEY = getenv("API_KEY", "30DxNexGenBots6c5e31") # youtube song api key, 
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
@@ -122,4 +125,4 @@ if SUPPORT_CHAT:
     if not re.match("(?:http|https)://", SUPPORT_CHAT):
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
-)
+        )
